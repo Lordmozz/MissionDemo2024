@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4061317330527257005, guid: 782dec1424c0f664d89dd9b263ddd9d4, type: 3}
   velocityMult: 10
+  projlinePrefab: {fileID: 8227122722256214803, guid: fde453dca8398114e92d40f00d871a52, type: 3}
   launchPoint: {fileID: 0}
   launchPos: {x: 0, y: 0, z: 0}
   projectile: {fileID: 0}
@@ -784,6 +785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
   velocityMult: 10
+  projlinePrefab: {fileID: 0}
   launchPoint: {fileID: 0}
   launchPos: {x: 0, y: 0, z: 0}
   projectile: {fileID: 0}
@@ -881,7 +883,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1013063558088209412, guid: be4f973daa0ddaa4bad2ff91924fb451, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1013063558088209412, guid: be4f973daa0ddaa4bad2ff91924fb451, type: 3}
       propertyPath: m_LocalPosition.y
